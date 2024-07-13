@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>American Getaways</title>
+    <title>AmericanGetaways - Orlando Listings</title>
+    <link rel="stylesheet" href="MyStyle.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,20 +15,26 @@
             background-color: #333;
             overflow: hidden;
         }
-        .navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
         }
-        .navbar a:hover {
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #000;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        nav ul li a:hover {
             background-color: #ddd;
             color: black;
         }
         .hero {
-            background-image: url('https://via.placeholder.com/1920x600');
+            background-image: url('https://southerntrippers.com/wp-content/uploads/2022/08/weekend-getaways-in-texas-new-braunfels-scaled.jpg');
             background-size: cover;
             background-position: center;
             height: 600px;
@@ -44,18 +51,39 @@
         .container {
             padding: 20px;
         }
-    </style>
+</style>
 </head>
 <body>
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="listings.html">Listings</a>
-        <a href="payment.html">Payment</a>
-    </div>
+<header>
+<style>
+h1{text-align:center;}
+nav{text-align:left;}
+</style>
+    <h1>AmericanGetaways</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listings.html">Listings</a></li>
+            <li><a href="login.html">Login/Signup</a></li>
+            <li><a href="payment.html">Payment</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="hero">
+    <h1>Welcome to American Getaways</h1>
+</div>
 
-    <div class="hero">
-        <h1>Welcome to American Getaways</h1>
-    </div>
+<div class="container">
+    <h2>About Us</h2>
+    <p>Welcome to American Getaways! We offer the best travel experiences across the United States. Explore our site to find the perfect getaway for you and your loved ones. Whether you're looking for adventure, relaxation, or cultural experiences, we've got you covered.</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 AmericanGetaways. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
 
     <div class="container">
         <h2>About Us</h2>
